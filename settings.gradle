@@ -1,0 +1,3 @@
+include ':bindingvalidation'
+include ':app'
+rootProject.name = "BindingValidation"
