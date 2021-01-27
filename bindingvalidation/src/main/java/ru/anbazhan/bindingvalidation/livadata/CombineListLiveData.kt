@@ -1,4 +1,4 @@
-package ru.anbazhan.bindingvalidation
+package ru.anbazhan.bindingvalidation.livadata
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
