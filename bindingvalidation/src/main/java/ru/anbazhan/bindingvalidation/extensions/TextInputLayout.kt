@@ -9,16 +9,16 @@ import ru.anbazhan.bindingvalidation.message.EditMessage
  * DataBinding адаптер для обработки подсказки
  */
 @BindingAdapter("android:errorText")
-fun TextInputLayout.bindErrorText(editBottomMessage: EditMessage?) {
+fun TextInputLayout.bindErrorText(editBottomMessage: EditMessage) {
     editBottomMessage?.let {
-        when (editBottomMessage.type) {
+        when (it.type) {
             EditMessageType.ERROR -> {
                 helperText = null
-                error = editBottomMessage.text
+                error = it.text
             }
             EditMessageType.HELPER, EditMessageType.NONE -> {
                 error = null
-                helperText = editBottomMessage.text
+                helperText = it.text
             }
         }
         isHelperTextEnabled = !helperText.isNullOrBlank()
