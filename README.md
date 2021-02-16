@@ -76,7 +76,7 @@ You already can use this field as it is by adding binding into your view xml
 
 If you need complex validation process, you can use ValidationController
 
-Just add it into your ViewModel class and add all fiedls you need to validate using addField(...) methode
+Just add it into your ViewModel class and add all fiedls you need to validate using addField(...) method
 
 ```kotlin
 class MyViewModel : ViewModel() {
