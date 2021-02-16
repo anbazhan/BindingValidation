@@ -108,6 +108,7 @@ After it you can use validationController.isValid flag for checking all fields y
             android:layout_margin="16dp" />
 ```
 
+You can find examples of code on branch sample
+
 ![](demo.gif)
 
-You can find examples of code on branch sample
