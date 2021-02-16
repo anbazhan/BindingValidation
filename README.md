@@ -93,7 +93,7 @@ class MyViewModel : ViewModel() {
         ...
     }
 }
-```kotlin
+```
 
 After it you can use validationController.isValid flag for checking all fields you have added. F.ex in view xml 
 
